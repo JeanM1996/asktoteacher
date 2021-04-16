@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>Ask to teacher Concept</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <!--Author: Jean-Paul MOSQUERA AREVALO-->
+        <link rel="stylesheet" href="css/styles.css"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+    </head>
+    <body>
+        <div id="fullContainer">
+            <div id="headingContainer">
+                <span id="headingText">
+                    <b>Ask to Teacher</b>
+                </span>
+               
+            </div>
+            <div id="centerPane">
+                <div id="loginContainer">
+                    <span class="inputLabel"><b>Name and Lastname</b></span>
+                    </br>
+                    <input type="text" id="username">
+                    </br>
+                    </br>
+                    <span class="inputLabel"><b>Channel</b></span>
+                    </br>
+                    <input type="text" id="channelName">
+                    </br>
+                    <button id="joinButton" onclick="joinNow()">Join</button>
+                </div>
+            </div>
+             <p id="phrase">The platform to get help about the school subjects!!<br> Jean Paul Mosquera</p>
+        </div>
+        <script src="https://cdn.agora.io/sdk/release/AgoraRTCSDK-3.0.0.js"></script>
+        <script src="js/videoCall.js"></script>
+    </body>
+</html>
