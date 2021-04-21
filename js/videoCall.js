@@ -6,7 +6,7 @@ let handlefail = function(err){
 let globalStream;
 let isAudioMuted = false;
 let isVideoMuted = false;
-let appId = "32dd97ab80464daab5be4b6ee17c2d28"
+let appId = "c08134a827814c19a758f13e22fa45bc"
 
 let remoteContainer = document.getElementById("remoteStream")
 
